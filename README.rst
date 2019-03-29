@@ -61,11 +61,11 @@ Link: `Resistance Gene Identifier <https://card.mcmaster.ca/analyze/rgi>`_
 Super Bugs
 --------------------------------------------
 
-We have only two drug classes of ‘last resort’, which we only use in extreme circumstances. These are colistin and fourth-generation carbapenems. In that last 10 years, two genes have emerged that cause resistance to these drugs: MCR proteins against colistin, NDM proteins against fourth-generation carbapenems.
+We have only two drug classes of **last resort**, which we only use in extreme circumstances. These are colistin and fourth-generation carbapenems. In that last 10 years, two genes have emerged that cause resistance to these drugs: MCR proteins against colistin, NDM proteins against fourth-generation carbapenems.
 
 Link: `Resistomes & Variants <https://card.mcmaster.ca/genomes>`_
 
-**Question #7. CARD routinely analyzes the thousands of genomes, plasmids, and whole genome shotgun assemblies available in GenBank. Using CARD’s Resistomes & Variants section, can you find a pathogen with both of these genes? Which pathogen contains these genes and how many drug classes can it resist? Would you consider this a super bug?**
+**Question #7. CARD routinely analyzes the thousands of genomes, plasmids, and whole genome shotgun assemblies available in GenBank. Using CARD’s Resistomes & Variants section, can you find a pathogen with both of these genes? Which pathogen(s) contains these genes and how many drug classes can they resist on average? Would you consider these super bugs?**
 
 Clinical Samples
 --------------------------------------------

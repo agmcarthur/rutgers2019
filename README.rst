@@ -18,7 +18,9 @@ Antibiotic Resistance Ontology
 At the heart of the Comprehensive Antibiotic Resistance Database is the Antibiotic Resistance Ontology (ARO), a controlled vocabulary for organizing and cross-linking diverse data within CARD.
 
 +--------------------------------------------------------------------------------------------------------------+
-|    Question #1. Browsing from the CARD home page, what are the seven major branches of the ARO?              |
+|    Question #1                                                                                               |
++==============================================================================================================+
+|    Browsing from the CARD home page, what are the seven major branches of the ARO?              |
 +--------------------------------------------------------------------------------------------------------------+
 
 +---------------------------------------------------------------------------------------------------------------------------------------+

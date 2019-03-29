@@ -87,7 +87,7 @@ Clinical Resistance Challenge
 
 One of our local hospitals has a history of Clostridium difficile infections and we have performed whole-genome sequencing surveillance of both carrier (i.e. colonized, but no symptoms) and symptomatic patients. Normally, C. difficile is quite responsive to antibiotics, but we have recently seen resistance to gentamicin and acriflavin. Isolate genome sequencing is provided for a small number of resistant and sensitive isolates. Use the `Resistance Gene Identifier <https://card.mcmaster.ca/analyze/rgi>`_ to analyze the resistomes of these isolates.
 
-**Question 11. Can you explain the resistance to gentamicin and acriflavin? If so, which genes and resistance mechanisms are responsible? Do you see evidence that the resistance is plasmid-borne and thus a threat for tranmission of AMR?**
+**Question 11. Can you explain the resistance to gentamicin and acriflavin? If so, which genes and resistance mechanisms are responsible? Do you see evidence that the resistance is plasmid-borne and thus a threat for transmission of AMR?**
 
 **Question 12. Fidaxomicin, a macrolide antibiotic, was recently approved for treatment of C. difficile infections. Do you predict any resistance to this antibiotic?**
 

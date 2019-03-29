@@ -53,7 +53,7 @@ Sample #2 has proven to be a difficult analysis that illustrates the limits of s
 
 Below is a list of papers discovered in the last few weeks by CARD’s text mining tool CARD:Shark. CARD:Shark examines the PubMed resource every 30 days and scores papers on their likelihood to contain information important for CARD. We also use it to back-scan the literature for resistance in specific pathogens. There can be more than 1000 AMR papers published each month, more than our curation team can screen manually, but CARD*Shark ‘shuffles the deck’ and puts the most valuable papers at the top of our curation que. 
 
-*CARD:Shark Highlighted PubMed Identifiers* 
+**CARD:Shark Highlighted PubMed Identifiers**
 
 * Leeds JA, et al. 2014. J. Antimicrob. Chemother. 69(1):41-4 *In vitro* selection, via serial passage, of *Clostridium difficile* mutants with reduced susceptibility to fidaxomicin or vancomycin. [PMID 23887866](https://www.ncbi.nlm.nih.gov/pubmed/23887866)
 

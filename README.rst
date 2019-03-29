@@ -85,20 +85,16 @@ Link: `PDB Sequence Search tool <http://www.rcsb.org/pages/search_features#searc
 Clinical Resistance Challenge
 --------------------------------------------
 
-One of our local hospitals has a history of Clostridium difficile infections and we have performed whole-genome sequencing surveillance of both carriers (i.e. colonized, but no symptoms) and symptomatic patients. Normally, C. difficile is quite responsive to antibiotics, but we have recently seen resistance to gentamicin and acriflavin. Isolate genome sequencing is provide for a small number of resistant and sensitive isolates. The `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_ to analyze the resistomes of these isolates.
+One of our local hospitals has a history of Clostridium difficile infections and we have performed whole-genome sequencing surveillance of both carrier (i.e. colonized, but no symptoms) and symptomatic patients. Normally, C. difficile is quite responsive to antibiotics, but we have recently seen resistance to gentamicin and acriflavin. Isolate genome sequencing is provided for a small number of resistant and sensitive isolates. Use the `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_ to analyze the resistomes of these isolates.
 
-**Question 11. Can you explain the resistance to gentamicin and acriflavin? If so, which genes and resistance mechanisms are responsible? Do you see evidence that the resistance is plasmid-borne and thus a threat for tranmission of AMR?
+**Question 11. Can you explain the resistance to gentamicin and acriflavin? If so, which genes and resistance mechanisms are responsible? Do you see evidence that the resistance is plasmid-borne and thus a threat for tranmission of AMR?**
 
-**Question 12. Fidaxomicin, a macrolide antibiotic, was recently approved for treatment of C. difficile infections. Do you predict any resistance to this antibiotic?
+**Question 12. Fidaxomicin, a macrolide antibiotic, was recently approved for treatment of C. difficile infections. Do you predict any resistance to this antibiotic?**
 
 Curation Challenge
 --------------------------------------------
 
-Below is a list of papers discovered in the last few weeks by CARD’s text mining tool CARD:Shark. CARD:Shark examines the PubMed resource every 30 days and scores papers on their likelihood to contain information important for CARD. We also use it to back-scan the literature for resistance in specific pathogens. There can be more than 1000 AMR papers published each month, more than our curation team can screen manually, but CARD*Shark ‘shuffles the deck’ and puts the most valuable papers at the top of our curation que. 
+Vancomycin is the preferred front-line treatment for C. difficile infection, with low levels of resistance. Yet, our CARD:Shark text mining algorithms recently detected a paper describing a novel mechanism of vancomycin resistance: Leeds JA, et al. 2014. J. Antimicrob. Chemother. 69(1):41-4 In vitro selection, via serial passage, of Clostridium difficile mutants with reduced susceptibility to fidaxomicin or vancomycin. `PMID 23887866 <https://www.ncbi.nlm.nih.gov/pubmed/23887866>`_
 
-**CARD:Shark Highlighted Papers**
-
-* Leeds JA, et al. 2014. J. Antimicrob. Chemother. 69(1):41-4 In vitro selection, via serial passage, of Clostridium difficile mutants with reduced susceptibility to fidaxomicin or vancomycin. [PMID 23887866](https://www.ncbi.nlm.nih.gov/pubmed/23887866)
-
-**Question #11. Pick one paper that interests you and decide how it would be added to CARD, specifically what type of Detection Model and where it would connect to the Antibiotic Resistance Ontology?**
+**Question #12. Review this paper and decide how the resistance would be added to CARD, specifically what type of Detection Model and where it would connect to the Antibiotic Resistance Ontology?**
 

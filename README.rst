@@ -21,17 +21,13 @@ At the heart of the Comprehensive Antibiotic Resistance Database is the Antibiot
 |    Question #1. Browsing from the CARD home page, what are the seven major branches of the ARO?              |
 +----------------------------------------------------------+---------------------------------------------------+
 
-::
++----------------------------------------------------------+---------------------------------------------------+
+|    Question #2. How many major drug classes are represented in the ARO? These are tagged as [Drug Class] within the ARO.              |
++----------------------------------------------------------+---------------------------------------------------+
 
-  Question #1. Browsing from the CARD home page, what are the seven major branches of the ARO?
-
-::
- 
-  Question #2. How many major drug classes are represented in the ARO? These are tagged as [Drug Class] within the ARO.
-
-::
- 
-  Question #3. Using the search box, find the ARO term for the MCR-1 protein. Outline what drugs MCR-1 confers resistance to and via which mechanism. Explain the mechanism by exploring the ARO terms associated with MCR-1.
++----------------------------------------------------------+---------------------------------------------------+
+|    Question #3. Using the search box, find the ARO term for the MCR-1 protein. Outline what drugs MCR-1 confers resistance to and via which mechanism. Explain the mechanism by exploring the ARO terms associated with MCR-1.             |
++----------------------------------------------------------+---------------------------------------------------+
 
 Detection Models & the Resistance Gene Identifier
 --------------------------------------------

@@ -54,9 +54,9 @@ The RGI analyzes genome or proteome sequences under three paradigms: **Perfect**
 
 Link: `Resistance Gene Identifier <https://card.mcmaster.ca/analyze/rgi>`_
 
-**Question #5. Using the Resistance Gene Identifier software, analyze plasmid HQ451074.1. Trying the RGI visualizations and table view, which are all based on the ARO, and only using Perfect and Strict hits, what resistance genes or variants exist in this plasmid sequence, which drugs classes do they confer resistance to, and via which mechanisms?**
+**Question #5. Using the Resistance Gene Identifier software, analyze plasmid HQ451074.1 using only Perfect and Strict hits. Trying the RGI visualizations and table view, which are all based on the ARO, which resistance genes or variants exist in this plasmid sequence, which drugs classes do they confer resistance to, and via which mechanisms?**
 
-**Question #6. Using the Resistance Gene Identifier software, analyze genome AE014613.1 from Salmonella enterica. Which mutation-based antimicrobial resistance is present in this genome, i.e. which genes and effected drugs? Are any of these detected mutations from the same pathogen? Do you think this pathogen will be resistant to these drugs?**
+**Question #6. Using the Resistance Gene Identifier software, analyze genome AE014613.1 from Salmonella enterica using only Perfect and Strict hits. Which mutation-based antimicrobial resistance is present in this genome, i.e. which genes and effected drugs? Are any of these detected mutations from the same pathogen? Do you think this pathogen will be resistant to these drugs?**
 
 Super Bugs
 --------------------------------------------

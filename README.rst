@@ -72,15 +72,15 @@ Clinical Samples
 
 At McMaster University and in association with our regional hospitals, we have a AMR surveillance program where any infection reported resistant to 3 or more drugs is isolated, cultured, screened for resistance to a panel of 18 antibiotics, has its genome sequenced, and full resistome predicted by the RGI. We are sharing data from two of these isolates to you as a challenge to predict the mechanisms of resistance.
 
-**Question #8. Sample 1 has been identified as a vancomycin resistant Enterococcus, but the exact species identification is uncertain. Using the RGI using Perfect & Strict, explain the underlying mechanism for the observed vancomycin resistance. What is the genetic underpinning for this mechanism?**
+**Question #8. Sample 1 has been identified as a vancomycin resistant Enterococcus, but the exact species identification is uncertain. Using the RGI with Perfect & Strict, explain the underlying mechanism for the observed vancomycin resistance. What is the genetic underpinning for this mechanism?**
 
 Sample 2 has proven to be a difficult analysis that illustrates the limits of sequence-based analysis. Specifically, it has strong aminoglycoside resistance and we suspect RGI is under-predicting aminoglycoside resistance genes. Explore the RGI results for this gene using Perfect, Strict, and Loose. 
 
-**Question #9. Which aminoglycoside genes are predicted as Perfect or Strict?**
+**Question #9. Which aminoglycoside genes are predicted as Perfect or Strict (search the RGI results table)?**
 
 Link: `PDB Sequence Search tool <http://www.rcsb.org/pages/search_features#search_sequences>`_
 
-**Question #10. The CARD website cannot visualize all of the Loose hits, but if you sort the Table View by “ARO Term” you will see three Loose hits to AAC(6') genes. Use the “Download All” button and open the “*.txt” file in EXCEL to find the “Predicted_Protein” sequences for these three entries. Use the PDB Sequence Search tool to analyze these sequences against known structures. Do you think any of these three genes are functional AAC(6') genes? If so, why do you think these sequences are in not in CARD?**
+**Question #10. You will see three Loose hits to AAC(6') genes. Use the “Download All” button and open the “*.txt” file in EXCEL to find the “Predicted_Protein” sequences for these three entries. Use the PDB Sequence Search tool to analyze these sequences against known structures. Do you think any of these three genes are functional AAC(6') genes? If so, why do you think these sequences are in not in CARD?**
 
 Clinical Resistance Challenge
 --------------------------------------------

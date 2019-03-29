@@ -52,6 +52,8 @@ The RGI currently supports CARD's `protein homolog models <https://card.mcmaster
 
 The RGI analyzes genome or proteome sequences under three paradigms: **Perfect**, **Strict**, and **Loose** (a.k.a. Discovery). The Perfect algorithm is most often applied to clinical surveillance as it detects perfect matches to the curated reference sequences and mutations in the CARD. In contrast, the Strict algorithm detects previously unknown variants of known AMR genes, including secondary screen for key mutations, using detection models with CARD's curated similarity cut-offs to ensure the detected variant is likely a functional AMR gene. The Loose algorithm works outside of the detection model cut-offs to provide detection of new, emergent threats and more distant homologs of AMR genes, but will also catalog homologous sequences and spurious partial hits that may not have a role in AMR. Combined with phenotypic screening, the Loose algorithm allows researchers to hone in on new AMR genes. All results are organized via the `Antibiotic Resistance Ontology <https://card.mcmaster.ca/ontology/36006>`_ classification: AMR Gene Family, Drug Class, and Resistance Mechanism. **Note**: All Loose hits of 95% identity or better are automatically listed as Strict.
 
+Link: `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_
+
 **Question #5. Using the Resistance Gene Identifier software, analyze plasmid HQ451074.1. Trying the RGI visualizations and table view, which are all based on the ARO, and only using Perfect and Strict hits, what resistance genes or variants exist in this plasmid sequence, which drugs classes do they confer resistance to, and via which mechanisms?**
 
 **Question #6. Using the Resistance Gene Identifier software, analyze genome AE014613.1 from Salmonella enterica. Which mutation-based antimicrobial resistance is present in this genome, i.e. which genes and effected drugs? Are any of these detected mutations from the same pathogen? Do you think this pathogen will be resistant to these drugs?**
@@ -61,20 +63,33 @@ Super Bugs
 
 We have only two drug classes of ‘last resort’, which we only use in extreme circumstances. These are colistin and fourth-generation carbapenems. In that last 10 years, two genes have emerged that cause resistance to these drugs: MCR proteins against colistin, NDM proteins against fourth-generation carbapenems.
 
-**Question #7. CARD routinely analyzes the thousands of genomes, plasmids, and whole genome shotgun assemblies available in GenBank. Using CARD’s `Resistomes & Variants <https://card.mcmaster.ca/genomes>`_ section, can you find a pathogen with both of these genes? Which pathogen contains these genes and how many drug classes can it resist? Would you consider this a super bug?**
+Link: `Resistomes & Variants <https://card.mcmaster.ca/genomes>`_
+
+**Question #7. CARD routinely analyzes the thousands of genomes, plasmids, and whole genome shotgun assemblies available in GenBank. Using CARD’s Resistomes & Variants section, can you find a pathogen with both of these genes? Which pathogen contains these genes and how many drug classes can it resist? Would you consider this a super bug?**
 
 Clinical Samples
 --------------------------------------------
 
 At McMaster University and in association with our regional hospitals, we have a AMR surveillance program where any infection reported resistant to 3 or more drugs is isolated, cultured, screened for resistance to a panel of 18 antibiotics, has its genome sequenced, and full resistome predicted by the RGI. We are sharing data from two of these isolates to you as a challenge to predict the mechanisms of resistance.
 
-**Question #8. Sample #1 has been identified as a vancomycin resistant Enterococcus, but the exact species identification is uncertain. Using the RGI using Perfect & Strict, explain the underlying mechanism for the observed vancomycin resistance. What is the genetic underpinning for this mechanism?**
+**Question #8. Sample 1 has been identified as a vancomycin resistant Enterococcus, but the exact species identification is uncertain. Using the RGI using Perfect & Strict, explain the underlying mechanism for the observed vancomycin resistance. What is the genetic underpinning for this mechanism?**
 
-Sample #2 has proven to be a difficult analysis that illustrates the limits of sequence-based analysis. Specifically, it has strong aminoglycoside resistance and we suspect RGI is under-predicting aminoglycoside resistance genes. Explore the RGI results for this gene using Perfect, Strict, and Loose. 
+Sample 2 has proven to be a difficult analysis that illustrates the limits of sequence-based analysis. Specifically, it has strong aminoglycoside resistance and we suspect RGI is under-predicting aminoglycoside resistance genes. Explore the RGI results for this gene using Perfect, Strict, and Loose. 
 
 **Question #9. Which aminoglycoside genes are predicted as Perfect or Strict?**
 
-**Question #10. The CARD website cannot visualize all of the Loose hits, but if you sort the Table View by “ARO Term” you will see three Loose hits to AAC(6') genes. Use the “Download All” button and open the “*.txt” file in EXCEL to find the “Predicted_Protein” sequences for these three entries. Use the [PDB Sequence Search tool](http://www.rcsb.org/pages/search_features#search_sequences) to analyze these sequences against known structures. Do you think any of these three genes are functional AAC(6') genes? If so, why do you think these sequences are in not in CARD?**
+Link: `PDB Sequence Search tool <http://www.rcsb.org/pages/search_features#search_sequences>`_
+
+**Question #10. The CARD website cannot visualize all of the Loose hits, but if you sort the Table View by “ARO Term” you will see three Loose hits to AAC(6') genes. Use the “Download All” button and open the “*.txt” file in EXCEL to find the “Predicted_Protein” sequences for these three entries. Use the PDB Sequence Search tool to analyze these sequences against known structures. Do you think any of these three genes are functional AAC(6') genes? If so, why do you think these sequences are in not in CARD?**
+
+Clinical Resistance Challenge
+--------------------------------------------
+
+One of our local hospitals has a history of Clostridium difficile infections and we have performed whole-genome sequencing surveillance of both carriers (i.e. colonized, but no symptoms) and symptomatic patients. Normally, C. difficile is quite responsive to antibiotics, but we have recently seen resistance to gentamicin and acriflavin. Isolate genome sequencing is provide for a small number of resistant and sensitive isolates. The `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_ to analyze the resistomes of these isolates.
+
+**Question 11. Can you explain the resistance to gentamicin and acriflavin? If so, which genes and resistance mechanisms are responsible? Do you see evidence that the resistance is plasmid-borne and thus a threat for tranmission of AMR?
+
+**Question 12. Fidaxomicin, a macrolide antibiotic, was recently approved for treatment of C. difficile infections. Do you predict any resistance to this antibiotic?
 
 Curation Challenge
 --------------------------------------------

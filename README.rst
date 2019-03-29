@@ -3,7 +3,7 @@ RU-Spring-2018L Molecular View of Human Anatomy: Molecular Mechanisms of Antibio
  
 The Comprehensive Antibiotic Resistance Database (CARD) is a bioinformatics resource for antimicrobial resistance genes, their products and associated phenotypes. With a focus on the molecular determinants of AMR, CARD is heavily used for molecular surveillance of AMR in the environment, agriculture, and clinic:
 
-![CARD Overview](card_overview.jpg)
+.. image:: card_overview.jpg
 
 **CARD reference sequences and significance cut-offs are under constant curation - as CARD curation evolves, the results of RGI evolve.**
 
@@ -17,18 +17,22 @@ Antibiotic Resistance Ontology
 
 At the heart of the Comprehensive Antibiotic Resistance Database is the Antibiotic Resistance Ontology (ARO), a controlled vocabulary for organizing and cross-linking diverse data within CARD.
 
-> Question #1. Browsing from the CARD home page, what are the seven major branches of the ARO?
+.. code-block:: sh
+	Question #1. Browsing from the CARD home page, what are the seven major branches of the ARO?
 
-> Question #2. How many major drug classes are represented in the ARO? These are tagged as [Drug Class] within the ARO.
+.. code-block:: sh
+	Question #2. How many major drug classes are represented in the ARO? These are tagged as [Drug Class] within the ARO.
 
-> Question #3. Using the search box, find the ARO term for the MCR-1 protein. Outline what drugs MCR-1 confers resistance to and via which mechanism. Explain the mechanism by exploring the ARO terms associated with MCR-1.
+.. code-block:: sh
+	Question #3. Using the search box, find the ARO term for the MCR-1 protein. Outline what drugs MCR-1 confers resistance to and via which mechanism. Explain the mechanism by exploring the ARO terms associated with MCR-1.
 
 Detection Models & the Resistance Gene Identifier
 --------------------------------------------
 
 Continuing to look at CARD’s entry for MCR-1, you’ll see that ARO terms describing specific genes include curated Detection Models, which define the parameter and sequence space needed to predict presence of AMR genes in raw genome or metagenome samples. CARD’s collection of Detection Models are used by the Resistance Gene Identifier software (RGI) to annotate genomes, with all results categorized using terms in the ARO.
 
-> Question #4. Again using the search box, contrast MCR-1 and *Mycobacterium tuberculosis* embB mutations conferring resistance to ethambutol. How does the mechanism of resistance differ between these two genes? What extra information is required in the embB detection model? 
+.. code-block:: sh
+Question #4. Again using the search box, contrast MCR-1 and *Mycobacterium tuberculosis* embB mutations conferring resistance to ethambutol. How does the mechanism of resistance differ between these two genes? What extra information is required in the embB detection model? 
 
 If DNA sequences are submitted, RGI first predicts complete open reading frames (ORFs) using `Prodigal <https://github.com/hyattpd/Prodigal>`_ (ignoring those less than 30 bp) and analyzes the predicted protein sequences. Short contigs, small plasmids, low quality assemblies, or merged metagenomic reads should be analyzed using Prodigal's algorithms for low quality/coverage assemblies (i.e. contigs <20,000 bp) and inclusion of partial gene prediction. If the low sequence quality option is selected, RGI uses Prodigal anonymous mode for open reading frame prediction, supporting calls of partial AMR genes from short or low quality contigs.
 

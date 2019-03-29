@@ -55,7 +55,7 @@ Below is a list of papers discovered in the last few weeks by CARD’s text mini
 
 *CARD:Shark Highlighted PubMed Identifiers* 
 
-* Leeds JA, et al. 2014. J. Antimicrob. Chemother. 69(1):41-4 *In vitro* selection, via serial passage, of *Clostridium difficile* mutants with reduced susceptibility to fidaxomicin or vancomycin. [https://www.ncbi.nlm.nih.gov/pubmed/23887866](PMID 23887866)
+* Leeds JA, et al. 2014. J. Antimicrob. Chemother. 69(1):41-4 *In vitro* selection, via serial passage, of *Clostridium difficile* mutants with reduced susceptibility to fidaxomicin or vancomycin. [PMID 23887866](https://www.ncbi.nlm.nih.gov/pubmed/23887866)
 
 > Question #11. Pick one paper that interests you and decide how it would be added to CARD, specifically what type of Detection Model and where it would connect to the Antibiotic Resistance Ontology?
 

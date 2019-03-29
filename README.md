@@ -7,6 +7,8 @@ The Comprehensive Antibiotic Resistance Database (CARD) is a bioinformatics reso
 
 ![CARD Overview](card_overview.jpg)
 
+**CARD reference sequences and significance cut-offs are under constant curation - as CARD curation evolves, the results of RGI evolve.**
+
 ## Lab Goals
 
 The goals of this laboratory is to introduce students to the diversity of molecular mechanisms underlying AMR, provide a practical exposure of databases and biocuration, illustrate the power of ontologies for organizing complex biomedical information, and provide practical skills in annotation of clinical genome sequences. All analyses will be performed online at http://card.mcmaster.ca
@@ -26,6 +28,32 @@ At the heart of the Comprehensive Antibiotic Resistance Database is the Antibiot
 Continuing to look at CARD’s entry for MCR-1, you’ll see that ARO terms describing specific genes include curated Detection Models, which define the parameter and sequence space needed to predict presence of AMR genes in raw genome or metagenome samples. CARD’s collection of Detection Models are used by the Resistance Gene Identifier software (RGI) to annotate genomes, with all results categorized using terms in the ARO.
 
 > Question #4. Again using the search box, contrast MCR-1 and *Mycobacterium tuberculosis* embB mutations conferring resistance to ethambutol. How does the mechanism of resistance differ between these two genes? What extra information is required in the embB detection model? 
+
+If DNA sequences are submitted, RGI first predicts complete open reading frames (ORFs) using `Prodigal <https://github.com/hyattpd/Prodigal>`_ (ignoring those less than 30 bp) and analyzes the predicted protein sequences. Short contigs, small plasmids, low quality assemblies, or merged metagenomic reads should be analyzed using Prodigal's algorithms for low quality/coverage assemblies (i.e. contigs <20,000 bp) and inclusion of partial gene prediction. If the low sequence quality option is selected, RGI uses Prodigal anonymous mode for open reading frame prediction, supporting calls of partial AMR genes from short or low quality contigs.
+
+The RGI currently supports CARD's `protein homolog models <https://card.mcmaster.ca/ontology/40292>`_ (use of BLASTP or `DIAMOND <https://ab.inf.uni-tuebingen.de/software/diamond>`_ bitscore cut-offs to detect functional homologs of AMR genes), `protein variant models <https://card.mcmaster.ca/ontology/40293>`_ (for accurate differentiation between susceptible intrinsic genes and intrinsic genes that have acquired mutations conferring AMR, based on CARD's curated SNP matrices), `rRNA mutation models <https://card.mcmaster.ca/ontology/40295>`_ (for detection of drug resistant rRNA target sequences), and `protein over-expression models <https://card.mcmaster.ca/ontology/41091>`_ (which detect efflux subunits associated AMR, but also highlights mutations conferring over-expression when present).
+
++----------------------------------------------------------+---------------------------------------------------+
+|    Example                                               | AMR Gene                                          |
++==========================================================+===================================================+
+|    Protein Homolog Model                                 | `NDM-1 <https://card.mcmaster.ca/ontology/36728>`_| 
++----------------------------------------------------------+---------------------------------------------------+
+|    Protein Variant Model                                 | `Acinetobacter baumannii gyrA conferring          |
+|                                                          | resistance to fluoroquinolones                    |
+|                                                          | <https://card.mcmaster.ca/ontology/40507>`_       |
++----------------------------------------------------------+---------------------------------------------------+
+|    rRNA Mutation Model                                   | `Campylobacter jejuni 23S rRNA with mutation      |
+|                                                          | conferring resistance to erythromycin             |
+|                                                          | <https://card.mcmaster.ca/ontology/42445>`_       |
++----------------------------------------------------------+---------------------------------------------------+
+|    Protein Over-Expression Model                         | `MexR <https://card.mcmaster.ca/ontology/36645>`_ | 
++----------------------------------------------------------+---------------------------------------------------+
+
+The RGI analyzes genome or proteome sequences under three paradigms: **Perfect**, **Strict**, and **Loose** (a.k.a. Discovery). The Perfect algorithm is most often applied to clinical surveillance as it detects perfect matches to the curated reference sequences and mutations in the CARD. In contrast, the Strict algorithm detects previously unknown variants of known AMR genes, including secondary screen for key mutations, using detection models with CARD's curated similarity cut-offs to ensure the detected variant is likely a functional AMR gene. The Loose algorithm works outside of the detection model cut-offs to provide detection of new, emergent threats and more distant homologs of AMR genes, but will also catalog homologous sequences and spurious partial hits that may not have a role in AMR. Combined with phenotypic screening, the Loose algorithm allows researchers to hone in on new AMR genes.
+
+**Note: All Loose hits of 95% identity or better are automatically listed as Strict.**
+
+All results are organized via the `Antibiotic Resistance Ontology <https://card.mcmaster.ca/ontology/36006>`_ classification: AMR Gene Family, Drug Class, and Resistance Mechanism. JSON files created at the command line can be `Uploaded at the CARD Website <https://card.mcmaster.ca/analyze/rgi>`_ for visualization.
 
 > Question #5. Using the Resistance Gene Identifier software, analyze plasmid HQ451074.1. Perfect = perfect matches to reference sequences in the CARD, Strict = allowable variants of the reference sequences in the CARD using curated cut-offs, Loose = sequences with similarity to CARD reference sequences, but outside of detection model cut-offs. Trying the RGI visualizations and table view, which are all based on the ARO, and only using Perfect and Strict hits, what resistance genes or variants exist in this plasmid sequence, which drugs classes do they confer resistance to, and via which mechanisms?
 

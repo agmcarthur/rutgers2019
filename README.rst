@@ -26,7 +26,7 @@ At the heart of the Comprehensive Antibiotic Resistance Database is the Antibiot
 Detection Models & the Resistance Gene Identifier
 --------------------------------------------
 
-Continuing to look at CARD’s entry for MCR-1, you’ll see that ARO terms describing specific genes include curated Detection Models, which define the parameter and sequence space needed to predict presence of AMR genes in raw genome or metagenome samples. CARD’s collection of Detection Models are used by the `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_ software (RGI) to annotate genomes, with all results categorized using terms in the ARO.
+Continuing to look at CARD’s entry for MCR-1, you’ll see that ARO terms describing specific genes include curated Detection Models, which define the parameter and sequence space needed to predict presence of AMR genes in raw genome or metagenome samples. CARD’s collection of Detection Models are used by the `Resistance Gene Identifier <https://card.mcmaster.ca/analyze/rgi>`_ software (RGI) to annotate genomes, with all results categorized using terms in the ARO.
 
 **Question #4. Again using the search box, contrast MCR-1 and Mycobacterium tuberculosis embB mutations conferring resistance to ethambutol. How does the mechanism of resistance differ between these two genes? What extra information is required in the embB detection model?**
 
@@ -52,7 +52,7 @@ The RGI currently supports CARD's `protein homolog models <https://card.mcmaster
 
 The RGI analyzes genome or proteome sequences under three paradigms: **Perfect**, **Strict**, and **Loose** (a.k.a. Discovery). The Perfect algorithm is most often applied to clinical surveillance as it detects perfect matches to the curated reference sequences and mutations in the CARD. In contrast, the Strict algorithm detects previously unknown variants of known AMR genes, including secondary screen for key mutations, using detection models with CARD's curated similarity cut-offs to ensure the detected variant is likely a functional AMR gene. The Loose algorithm works outside of the detection model cut-offs to provide detection of new, emergent threats and more distant homologs of AMR genes, but will also catalog homologous sequences and spurious partial hits that may not have a role in AMR. Combined with phenotypic screening, the Loose algorithm allows researchers to hone in on new AMR genes. All results are organized via the `Antibiotic Resistance Ontology <https://card.mcmaster.ca/ontology/36006>`_ classification: AMR Gene Family, Drug Class, and Resistance Mechanism. **Note**: All Loose hits of 95% identity or better are automatically listed as Strict.
 
-Link: `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_
+Link: `Resistance Gene Identifier <https://card.mcmaster.ca/analyze/rgi>`_
 
 **Question #5. Using the Resistance Gene Identifier software, analyze plasmid HQ451074.1. Trying the RGI visualizations and table view, which are all based on the ARO, and only using Perfect and Strict hits, what resistance genes or variants exist in this plasmid sequence, which drugs classes do they confer resistance to, and via which mechanisms?**
 
@@ -85,7 +85,7 @@ Link: `PDB Sequence Search tool <http://www.rcsb.org/pages/search_features#searc
 Clinical Resistance Challenge
 --------------------------------------------
 
-One of our local hospitals has a history of Clostridium difficile infections and we have performed whole-genome sequencing surveillance of both carrier (i.e. colonized, but no symptoms) and symptomatic patients. Normally, C. difficile is quite responsive to antibiotics, but we have recently seen resistance to gentamicin and acriflavin. Isolate genome sequencing is provided for a small number of resistant and sensitive isolates. Use the `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_ to analyze the resistomes of these isolates.
+One of our local hospitals has a history of Clostridium difficile infections and we have performed whole-genome sequencing surveillance of both carrier (i.e. colonized, but no symptoms) and symptomatic patients. Normally, C. difficile is quite responsive to antibiotics, but we have recently seen resistance to gentamicin and acriflavin. Isolate genome sequencing is provided for a small number of resistant and sensitive isolates. Use the `Resistance Gene Identifier <https://card.mcmaster.ca/analyze/rgi>`_ to analyze the resistomes of these isolates.
 
 **Question 11. Can you explain the resistance to gentamicin and acriflavin? If so, which genes and resistance mechanisms are responsible? Do you see evidence that the resistance is plasmid-borne and thus a threat for tranmission of AMR?**
 

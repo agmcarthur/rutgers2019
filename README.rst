@@ -56,16 +56,16 @@ The RGI analyzes genome or proteome sequences under three paradigms: **Perfect**
 
 All results are organized via the `Antibiotic Resistance Ontology <https://card.mcmaster.ca/ontology/36006>`_ classification: AMR Gene Family, Drug Class, and Resistance Mechanism. JSON files created at the command line can be `Uploaded at the CARD Website <https://card.mcmaster.ca/analyze/rgi>`_ for visualization.
 
-**Question #5. Using the Resistance Gene Identifier software, analyze plasmid HQ451074.1. Perfect = perfect matches to reference sequences in the CARD, Strict = allowable variants of the reference sequences in the CARD using curated cut-offs, Loose = sequences with similarity to CARD reference sequences, but outside of detection model cut-offs. Trying the RGI visualizations and table view, which are all based on the ARO, and only using Perfect and Strict hits, what resistance genes or variants exist in this plasmid sequence, which drugs classes do they confer resistance to, and via which mechanisms?**
+**Question #5. Using the `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_ software, analyze plasmid HQ451074.1. Trying the RGI visualizations and table view, which are all based on the ARO, and only using Perfect and Strict hits, what resistance genes or variants exist in this plasmid sequence, which drugs classes do they confer resistance to, and via which mechanisms?**
 
-**Question #6. Using the Resistance Gene Identifier software, analyze genome AE014613.1 from Salmonella enterica. Which mutation-based antimicrobial resistance is present in this genome, i.e. which genes and effected drugs? Are any of these detected mutations from the same pathogen? Do you think this pathogen will be resistant to these drugs?**
+**Question #6. Using the `Resistance Gene Identifier <http://card.mcmaster.ca/rgi>`_ software, analyze genome AE014613.1 from Salmonella enterica. Which mutation-based antimicrobial resistance is present in this genome, i.e. which genes and effected drugs? Are any of these detected mutations from the same pathogen? Do you think this pathogen will be resistant to these drugs?**
 
 Super Bugs
 --------------------------------------------
 
 We have only two drug classes of ‘last resort’, which we only use in extreme circumstances. These are colistin and fourth-generation carbapenems. In that last 10 years, two genes have emerged that cause resistance to these drugs: MCR proteins against colistin, NDM proteins against fourth-generation carbapenems.
 
-**Question #7. CARD routinely analyzes the thousands of genomes, plasmids, and whole genome shotgun assemblies available in GenBank. Using CARD’s “Resistomes & Variants” section, can you find a pathogen with both of these genes? Which pathogen contains these genes and how many drug classes can it resist? Would you consider this a super bug?**
+**Question #7. CARD routinely analyzes the thousands of genomes, plasmids, and whole genome shotgun assemblies available in GenBank. Using CARD’s `Resistomes & Variants <https://card.mcmaster.ca/genomes>`_ section, can you find a pathogen with both of these genes? Which pathogen contains these genes and how many drug classes can it resist? Would you consider this a super bug?**
 
 Clinical Samples
 --------------------------------------------

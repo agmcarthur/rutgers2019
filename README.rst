@@ -96,5 +96,5 @@ Curation Challenge
 
 Vancomycin is the preferred front-line treatment for C. difficile infection, with low levels of resistance. Yet, our CARD:Shark text mining algorithms recently detected a paper describing a novel mechanism of vancomycin resistance: Leeds JA, et al. 2014. J. Antimicrob. Chemother. 69(1):41-4 In vitro selection, via serial passage, of Clostridium difficile mutants with reduced susceptibility to fidaxomicin or vancomycin. `PMID 23887866 <https://www.ncbi.nlm.nih.gov/pubmed/23887866>`_
 
-**Question #12. Review this paper and decide how the resistance would be added to CARD, specifically what type of Detection Model and where it would connect to the Antibiotic Resistance Ontology?**
+**Question #12. Review this paper and decide how the resistance would be added to CARD, specifically what type of Detection Model and where it would connect to the Antibiotic Resistance Ontology.**
 

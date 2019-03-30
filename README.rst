@@ -1,4 +1,4 @@
-RU-Spring-2018L Molecular View of Human Anatomy: Molecular Mechanisms of Antibiotics Action and Resistance and the Comprehensive Antibiotic Resistance Database
+RU-Spring-2019 Molecular View of Human Anatomy: Molecular Mechanisms of Antibiotics Action and Resistance and the Comprehensive Antibiotic Resistance Database
 --------------------------------------------
  
 The `Comprehensive Antibiotic Resistance Database <http://card.mcmaster.ca>`_ (CARD) is a bioinformatics resource for antimicrobial resistance genes, their products and associated phenotypes. With a focus on the molecular determinants of AMR, CARD is heavily used for molecular surveillance of AMR in the environment, agriculture, and clinic:
